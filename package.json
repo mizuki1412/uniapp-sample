@@ -1,0 +1,10 @@
+{
+  "name": "uniapp-start",
+  "version": "1.0.0",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./index.css -o ./tailwind.css --watch",
+    "update-dep": "yarn upgrade-interactive --latest",
+    "up2lib": "rm -r ../../webkit-sample/lib/* && cp -r lib/* ../../webkit-sample/lib/",
+    "up4lib": "rm -r lib/* && cp -r ../../webkit-sample/lib/* lib/"
+  }
+}
