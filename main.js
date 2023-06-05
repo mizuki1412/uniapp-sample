@@ -1,5 +1,5 @@
 import App from "./App.vue"
-// import "./index.css"
+// import './tailwind.css'
 
 import { createSSRApp } from 'vue'
 export function createApp() {

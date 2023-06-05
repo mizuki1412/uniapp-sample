@@ -11,18 +11,4 @@
     ._flex_col_center {
         @apply flex flex-col items-center justify-center;
     }
-
-    /* 用于一行key:val */
-    ._text {
-        @apply flex;
-    }
-
-    ._text div:first-child {
-        width: 100px;
-        @apply shrink-0;
-    }
-
-    ._text div:last-child {
-        @apply grow;
-    }
 }

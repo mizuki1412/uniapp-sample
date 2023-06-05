@@ -1,17 +1,67 @@
 {
   "pages": [
     {
-      "path": "pages/index/index",
+      "path": "pages/index/index1",
       "style": {
-        "navigationBarTitleText": "uni-app"
+        "navigationBarTitleText": "uni-index1"
       }
-    }
+    },
+	{
+	  "path": "pages/index/index2",
+	  "style": {
+	    "navigationBarTitleText": "uni-index2"
+	  }
+	},
+	{
+	  "path": "pages/index/index3",
+	  "style": {
+	    "navigationBarTitleText": "uni-index3"
+	  }
+	}
   ],
   "globalStyle": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "navigationBarBackgroundColor": "#f8fafc",
+    "backgroundColor": "#f8fafc"
   },
-  "uniIdRouter": {}
+  "tabBar": {
+    "color": "#cbd5e1",
+    "selectedColor": "#1e293b",
+    "backgroundColor": "#f8fafc",
+    "iconfontSrc": "static/iconfont/iconfont.ttf",
+    "list": [
+      {
+        "pagePath": "pages/index/index1",
+        "text": "示例1",
+        "iconfont": {
+          "text": "\ue603",
+          "selectedText": "\uE603",
+          "fontSize": "17px",
+          "color": "#000000",
+          "selectedColor": "#0000ff"
+        }
+      },
+      {
+        "pagePath": "pages/index/index2",
+        "text": "示例2",
+        "iconfont": {
+          "text": "\uE603",
+		  "fontSize": "17px",
+		  "color": "#000000",
+		  "selectedColor": "#0000ff"
+        }
+      },
+      {
+        "pagePath": "pages/index/index3",
+        "text": "示例3",
+        "iconfont": {
+          "text": "\ue78b",
+		  "fontSize": "17px",
+		  "color": "#000000",
+		  "selectedColor": "#0000ff"
+        }
+      }
+    ]
+  }
 }

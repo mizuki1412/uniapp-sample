@@ -1,6 +1,5 @@
 <script setup>
-  import {ref} from 'vue'
-  import {onLaunch, onShow, onHide, onLoad} from '@dcloudio/uni-app'
+import {onLaunch, onShow, onHide, onLoad} from '@dcloudio/uni-app'
   onLaunch(()=>{
     console.log('App Launch')
   })
@@ -13,5 +12,6 @@
 </script>
 
 <style>
-  @import './tailwind.css';
+@import "./tailwind.uniapp.css";
+@import "./static/iconfont/iconfont.css";
 </style>

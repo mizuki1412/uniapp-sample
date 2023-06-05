@@ -1,10 +1,15 @@
 {
-  "name": "uniapp-start",
+  "name": "uniapp-sample",
   "version": "1.0.0",
   "scripts": {
     "tailwind": "npx tailwindcss -i ./index.css -o ./tailwind.css --watch",
+    "tailwind.uniapp": "node ./tailwind.help.js",
     "update-dep": "yarn upgrade-interactive --latest",
-    "up2lib": "rm -r ../../webkit-sample/lib/* && cp -r lib/* ../../webkit-sample/lib/",
-    "up4lib": "rm -r lib/* && cp -r ../../webkit-sample/lib/* lib/"
+    "up2lib": "rm -r ../../uniapp-sample/lib/* && cp -r lib/* ../../uniapp-sample/lib/",
+    "up4lib": "rm -r lib/* && cp -r ../../uniapp-sample/lib/* lib/"
+  },
+  "devDependencies": {
+    "node-watch": "^0.7.3",
+    "tailwindcss": "^3.3.2"
   }
 }

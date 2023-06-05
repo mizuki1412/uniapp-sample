@@ -2,7 +2,7 @@
 	<view class="_flex_col_center">
 		<image class="w-24 h-24 mt-4" src="/static/logo.png"></image>
 		<view class="mt-2">
-			<text class="text-red-600">{{title}}</text>
+			<text class="text-green-600">{{title}}</text>
 		</view>
 	</view>
 </template>
@@ -16,7 +16,3 @@
     console.log("load", e)
   })
 </script>
-
-<style>
-
-</style>
