@@ -26,7 +26,7 @@
     "backgroundColor": "#f8fafc"
   },
   "tabBar": {
-    "color": "#cbd5e1",
+    "color": "#94a3b8",
     "selectedColor": "#1e293b",
     "backgroundColor": "#f8fafc",
     "iconfontSrc": "static/iconfont/iconfont.ttf",
@@ -34,33 +34,20 @@
       {
         "pagePath": "pages/index/index1",
         "text": "示例1",
-        "iconfont": {
-          "text": "\ue603",
-          "selectedText": "\uE603",
-          "fontSize": "17px",
-          "color": "#000000",
-          "selectedColor": "#0000ff"
-        }
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-s.png"
       },
       {
         "pagePath": "pages/index/index2",
         "text": "示例2",
-        "iconfont": {
-          "text": "\uE603",
-		  "fontSize": "17px",
-		  "color": "#000000",
-		  "selectedColor": "#0000ff"
-        }
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-s.png"
       },
       {
         "pagePath": "pages/index/index3",
         "text": "示例3",
-        "iconfont": {
-          "text": "\ue78b",
-		  "fontSize": "17px",
-		  "color": "#000000",
-		  "selectedColor": "#0000ff"
-        }
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-s.png"
       }
     ]
   }

@@ -2,7 +2,7 @@
 
 uniapp的示例工程。
 
-用HBuilderX编译运行。
+注意：此工程用HBuilderX编译运行。
 
 ## 工程目录
 
