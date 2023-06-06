@@ -11,5 +11,8 @@
   "devDependencies": {
     "node-watch": "^0.7.3",
     "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }

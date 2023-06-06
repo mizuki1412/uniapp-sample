@@ -46,4 +46,11 @@ https://uniapp.dcloud.net.cn/component/uniui/uni-icons.html#%E8%8E%B7%E5%8F%96%E
 
 App.vue中引入 `@import "static/iconfont/iconfont.css";`
 
-注：tabbar中的iconfont，不支持小程序
+注：tabbar中的iconfont，不支持小程序。所以tabbar中用png。
+
+
+# TODO
+
+- [ ] 全局的配置信息
+- [ ] request
+- [ ] router
