@@ -51,6 +51,6 @@ App.vue中引入 `@import "static/iconfont/iconfont.css";`
 
 # TODO
 
-- [ ] 全局的配置信息
 - [ ] request
 - [ ] router
+- [ ] toast/modal test
