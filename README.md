@@ -48,7 +48,6 @@ App.vue中引入 `@import "static/iconfont/iconfont.css";`
 
 注：tabbar中的iconfont，不支持小程序。所以tabbar中用png。
 
-
 # TODO
 
 - [ ] request

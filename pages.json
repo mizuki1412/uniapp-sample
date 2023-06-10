@@ -6,6 +6,12 @@
         "navigationBarTitleText": "uni-index1"
       }
     },
+    {
+      "path": "pages/login",
+      "style": {
+        "navigationBarTitleText": "uni-login"
+      }
+    },
 	{
 	  "path": "pages/index/index2",
 	  "style": {
