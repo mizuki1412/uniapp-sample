@@ -3,7 +3,7 @@
 		<text class="text-red-500">{{title}}</text>
 		<text class="text-red-500">{{obj?.extend}}</text>
 		<i class="iconfont icon-home text-red-600"></i>
-		<button @click="test">test2</button>
+		<button @tap="test">test2</button>
 	</view>
 </template>
 
