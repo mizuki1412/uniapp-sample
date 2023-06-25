@@ -50,7 +50,8 @@ App.vue中引入 `@import "static/iconfont/iconfont.css";`
 
 # TODO
 
-- [ ] request: upload/download 按需求
+- [ ] request: download 按需求
 - [x] router
 - [x] toast/modal test
+- [ ] 测试页列表
 - [ ] 应用popup实现通用错误提醒
