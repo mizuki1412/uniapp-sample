@@ -1,9 +1,9 @@
 {
   "pages": [
     {
-      "path": "pages/index/index1",
+      "path": "pages/home",
       "style": {
-        "navigationBarTitleText": "uni-index1"
+        "navigationBarTitleText": "首页"
       }
     },
     {
@@ -12,18 +12,24 @@
         "navigationBarTitleText": "uni-login"
       }
     },
+    {
+      "path": "pages/index/index1",
+      "style": {
+        "navigationBarTitleText": "uni-index1"
+      }
+    },
 	{
 	  "path": "pages/index/index2",
 	  "style": {
 	    "navigationBarTitleText": "uni-index2"
 	  }
 	},
-	{
-	  "path": "pages/index/index3",
-	  "style": {
-	    "navigationBarTitleText": "uni-index3"
-	  }
-	}
+    {
+      "path": "pages/interactive/interactive",
+      "style": {
+        "navigationBarTitleText": "交互提示"
+      }
+    }
   ],
   "globalStyle": {
     "navigationBarTextStyle": "black",
@@ -37,6 +43,12 @@
     "backgroundColor": "#f8fafc",
     "list": [
       {
+        "pagePath": "pages/home",
+        "text": "首页",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-s.png"
+      },
+      {
         "pagePath": "pages/index/index1",
         "text": "示例1",
         "iconPath": "static/icon/home.png",
@@ -45,12 +57,6 @@
       {
         "pagePath": "pages/index/index2",
         "text": "示例2",
-        "iconPath": "static/icon/home.png",
-        "selectedIconPath": "static/icon/home-s.png"
-      },
-      {
-        "pagePath": "pages/index/index3",
-        "text": "示例3",
         "iconPath": "static/icon/home.png",
         "selectedIconPath": "static/icon/home-s.png"
       }
