@@ -15,7 +15,8 @@
 
 	const menus = ref([
 		{name:"交互提示", path:"/pages/interactive/interactive"},
-		{name:"todo", path:""},
+		{name:"列表分页", path:"/pages/list/list"},
+		{name:"多媒体", path:"/pages/multimedia/media"},
 	])
 
 	onLoad((e)=>{

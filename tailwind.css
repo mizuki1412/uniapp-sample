@@ -115,6 +115,14 @@
   margin-bottom: 16rpx
 }
 
+.flex {
+  display: flex
+}
+
+.hidden {
+  display: none
+}
+
 .h-24 {
   height: 192rpx
 }
@@ -129,6 +137,10 @@
 
 .w-full {
   width: 100%
+}
+
+.justify-between {
+  justify-content: space-between
 }
 
 .p-2 {
@@ -148,4 +160,14 @@
 .text-red-600 {
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity))
+}
+
+.text-red-700 {
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity))
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity))
 }

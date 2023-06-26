@@ -29,6 +29,18 @@
       "style": {
         "navigationBarTitleText": "交互提示"
       }
+    },
+    {
+      "path": "pages/multimedia/media",
+      "style": {
+        "navigationBarTitleText": "多媒体"
+      }
+    },
+    {
+      "path": "pages/list/list",
+      "style": {
+        "navigationBarTitleText": "列表分页"
+      }
     }
   ],
   "globalStyle": {
