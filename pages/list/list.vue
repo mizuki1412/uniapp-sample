@@ -8,7 +8,7 @@
 			</uni-list>
 			<view class="mt-2 text-gray-600 _flex_center" v-if="devices.length===0">暂无数据</view>
 			<view class="mt-2"></view>
-			<uni-pagination :show-icon="true" :total="total" :pageSize="15" v-model="current" @change="change" />
+			<uni-pagination :show-icon="true" :total="total" :pageSize="12" v-model="current" @change="change" />
 		</uni-section>
 	</view>
 </template>
@@ -37,7 +37,7 @@
 			for(let i=0;i<100;i++){
 				ds.records.push({id: i, name:'第'+i+'条信息'})
 			}
-			ds.records = ds.records.slice((ds.current-1)*15,ds.current*15)
+			ds.records = ds.records.slice((ds.current-1)*12,ds.current*12)
 			devices.value = ds.records
 			total.value = ds.total
 			current.value = ds.current

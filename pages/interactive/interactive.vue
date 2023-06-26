@@ -1,10 +1,10 @@
 <template>
 	<view class="p-2">
 		<ShowMessage class="mb-2"></ShowMessage>
-		<button type="primary" @click="loading" class="mb-2">request loading</button>
-		<button type="primary" @click="toast" class="mb-2">toast</button>
-		<button type="primary" @click="confirm" class="mb-2">确认拦截</button>
-		<button type="warn" @click="error" class="mb-2">错误显示</button>
+		<button type="primary" @tap="loading" class="mb-2">request loading</button>
+		<button type="primary" @tap="toast" class="mb-2">toast</button>
+		<button type="primary" @tap="confirm" class="mb-2">确认拦截</button>
+		<button type="warn" @tap="error" class="mb-2">错误显示</button>
 	</view>
 </template>
 
