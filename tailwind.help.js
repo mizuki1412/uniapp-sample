@@ -3,7 +3,7 @@ const fs = require("fs");
 const watch = require('node-watch');
 
 const tailwindFilePath = "./tailwind.css";
-watch(tailwindFilePath, { recursive: true }, function(evt, name) {
+function change() {
   fs.readFile(tailwindFilePath, (readError, data) => {
     if (readError) {
       console.error(readError);
@@ -19,7 +19,7 @@ watch(tailwindFilePath, { recursive: true }, function(evt, name) {
     fs.writeFile(
       "./tailwind.uniapp.css",
       minifyCSS,
-      { flag: "w+" },
+      { flag: "w" },
       (writeError) => {
         if (writeError) {
           console.error(writeError);
@@ -28,6 +28,9 @@ watch(tailwindFilePath, { recursive: true }, function(evt, name) {
     );
   });
   console.log(new Date(), "changed");
-});
+}
+change()
+
+watch(tailwindFilePath, { recursive: true }, change );
 
 

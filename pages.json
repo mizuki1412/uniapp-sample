@@ -9,7 +9,7 @@
     {
       "path": "pages/login",
       "style": {
-        "navigationBarTitleText": "uni-login"
+        "navigationStyle": "custom"
       }
     },
     {

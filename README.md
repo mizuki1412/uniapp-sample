@@ -21,6 +21,7 @@ uniapp的示例工程。
 注意：
 - App的css语法受限制。
 - 建议使用rpx
+- 不能用 -[]，如h-[100rpx]
 
 ```shell
 yarn add -D tailwindcss
