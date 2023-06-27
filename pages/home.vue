@@ -22,6 +22,9 @@
 
 	onLoad((e)=>{
     console.log("load", e)
+		uni.$on('update',function(data){
+			console.log('监听到事件来自 update ，携带参数 msg 为：' + data.msg);
+		})
   })
 
 	function change(e){

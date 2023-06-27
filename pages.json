@@ -15,7 +15,8 @@
     {
       "path": "pages/index/index1",
       "style": {
-        "navigationBarTitleText": "uni-index1"
+        "navigationBarTitleText": "uni-index1",
+        "enablePullDownRefresh": true
       }
     },
 	{

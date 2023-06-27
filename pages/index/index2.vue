@@ -1,9 +1,10 @@
 <template>
-	<view class="_flex_col_center">
-		<image class="w-24 h-24 mt-4" src="/static/logo.png"></image>
-		<view class="mt-2">
-			<text class="text-green-600">{{title}}</text>
-		</view>
+	<view>
+		<uni-section title="去除空格" type="line" padding>
+			<text class="uni-subtitle">输入内容：{{ '"'+val+'"' }}</text>
+			<uni-easyinput class="uni-mt-5" trim="all" v-model="val" placeholder="请输入内容"></uni-easyinput>
+		</uni-section>
+		<button class="mt-2" @tap="tap">点击</button>
 	</view>
 </template>
 
@@ -11,8 +12,9 @@
   import {ref} from 'vue'
   import {onLoad} from '@dcloudio/uni-app'
 
-  const title = ref('Hello2')
-	onLoad((e)=>{
-    console.log("load", e)
-  })
+  const val = ref('Hello2')
+
+	function tap(){
+		console.log(val.value)
+	}
 </script>

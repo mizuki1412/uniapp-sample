@@ -60,16 +60,16 @@
   justify-content: center
 }
 
+.mb-2 {
+  margin-bottom: 16rpx
+}
+
 .mt-2 {
   margin-top: 16rpx
 }
 
 .mt-4 {
   margin-top: 32rpx
-}
-
-.mb-2 {
-  margin-bottom: 16rpx
 }
 
 .flex {
@@ -88,6 +88,14 @@
   height: 100%
 }
 
+.h-\[500rpx\] {
+  height: 500rpx
+}
+
+.h-screen {
+  height: 100vh
+}
+
 .w-24 {
   width: 192rpx
 }
@@ -100,8 +108,18 @@
   justify-content: space-between
 }
 
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity))
+}
+
 .p-2 {
   padding: 16rpx
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity))
 }
 
 .text-green-600 {
@@ -122,9 +140,4 @@
 .text-red-700 {
   --tw-text-opacity: 1;
   color: rgb(185 28 28 / var(--tw-text-opacity))
-}
-
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity))
 }
